@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# Decisions and Loops
 
-You can use the [editor on GitHub](https://github.com/duha253/class-201-d2/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### USING SWITCH STATEMENTS 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Definition and Usage**
 
-```markdown
-Syntax highlighted code block
+The switch statement executes a block of code depending on different cases.
 
-# Header 1
-## Header 2
-### Header 3
+The switch statement is a part of JavaScript's "Conditional" Statements, which are used to perform different actions based on different conditions. Use switch to select one of many blocks of code to be executed. This is the perfect solution for long, nested if/else statements.
 
-- Bulleted
-- List
+The switch statement evaluates an expression. The value of the expression is then compared with the values of each case in the structure. If there is a match, the associated block of code is executed.
 
-1. Numbered
-2. List
+The switch statement is often used together with a break or a default keyword (or both). These are both optional:
 
-**Bold** and _Italic_ and `Code` text
+The break keyword breaks out of the switch block. This will stop the execution of more execution of code and/or case testing inside the block. If break is omitted, the next code block in the switch statement is executed.
 
-[Link](url) and ![Image](src)
-```
+The default keyword specifies some code to run if there is no case match. There can only be one default keyword in a switch. Although this is optional, it is recommended that you use it, as it takes care of unexpected cases.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![SWITCH STATEMENTS](https://th.bing.com/th/id/R952d3facbe19a961f928d5bd4a9b2fd5?rik=jUprHzZDeED3iQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-RxkIZSiXsoo%2fVGEoqIXiGbI%2fAAAAAAAAXO4%2fDbsfpzertJ4%2fs1600%2fSlide5.PNG&ehk=IvTXG7ZBA7xPIQZFvIxL6E3W5dJ9MARLGslANG1GeZY%3d&risl=&pid=ImgRaw)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/duha253/class-201-d2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
